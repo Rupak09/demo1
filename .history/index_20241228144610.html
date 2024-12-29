@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clinis - Telemedical consultation made easy and accessible.">
+    <meta property="og:title" content="Clinis - Your Health, Our Priority">
+    <meta property="og:description" content="Experience seamless healthcare with Clinis.">
+    <meta property="og:image" content="your-image-link.jpg">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <title>Clinis - Telemedical Consultation</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #hero {
+            background: url('R:\New Downloads\beela\beela\img\hero-image.jpg') no-repeat center center/cover;
+            color: white;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        #hero h1 {
+            font-size: 4rem;
+        }
+
+        #features .icon {
+            font-size: 2rem;
+            color: #007bff;
+        }
+
+        footer {
+            background: #343a40;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Clinis</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <h1>Clinis - Your Health, Our Priority</h1>
+            <p>Experience seamless healthcare from the comfort of your home.</p>
+            <a href="#download" class="btn btn-primary btn-lg">Get Started</a>
+            <a href="#features" class="btn btn-outline-light btn-lg">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container text-center">
+            <h2>Our Features</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <i class="fas fa-video icon"></i>
+                    <h4>Video Consultations</h4>
+                    <p>Connect with licensed professionals anytime, anywhere.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-prescription icon"></i>
+                    <h4>E-Prescriptions</h4>
+                    <p>Receive prescriptions directly to your app.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-user-md icon"></i>
+                    <h4>24/7 Support</h4>
+                    <p>Access healthcare professionals round-the-clock.</p>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <i class="fas fa-calendar-check icon"></i>
+                    <h4>Appointment Scheduling</h4>
+                    <p>Book consultations at your convenience.</p>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <i class="fas fa-file-medical icon"></i>
+                    <h4>Medical Records</h4>
+                    <p>Access your medical history securely on the app.</p>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <i class="fas fa-heartbeat icon"></i>
+                    <h4>Health Monitoring</h4>
+                    <p>Track your vitals and health data with ease.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">What Our Users Say</h2>
+            <div class="carousel slide" id="testimonialCarousel" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <blockquote class="blockquote text-center">
+                            <p>"Clinis made healthcare so accessible! I can consult doctors from home."</p>
+                            <footer class="blockquote-footer">John Doe</footer>
+                        </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <blockquote class="blockquote text-center">
+                            <p>"Amazing app! The 24/7 support feature is a lifesaver."</p>
+                            <footer class="blockquote-footer">Jane Smith</footer>
+                        </blockquote>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Frequently Asked Questions</h2>
+            <div id="faqAccordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne">
+                                How does Clinis work?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Clinis connects you with licensed healthcare professionals for online consultations.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo">
+                                Is my data secure?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Yes, Clinis employs end-to-end encryption to protect your data.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree">
+                                Can I choose my doctor?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Yes, you can select from a list of available professionals.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="py-5 text-center bg-primary text-white">
+        <div class="container">
+            <h2>Download the Clinis App</h2>
+            <p>Get it on Google Play or the App Store.</p>
+            <a href="#" class="btn btn-dark btn-lg mx-2">Google Play</a>
+            <a href="#" class="btn btn-light btn-lg mx-2">App Store</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Clinis. All rights reserved.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
